@@ -1,0 +1,136 @@
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* .wrap{margin: 0 auto;} */
+.innerFrame{
+    width: 1440px;
+    margin: 0 auto;
+}
+.ptColor{
+    color: #FF6B00;
+}
+
+header{
+    height: 100px;
+    padding: 10px 0;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.gnbBtn{
+    height: 100%;
+}
+.gnbBtn>a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+}
+.gnbBtn b{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.gnb_hidden{
+    display: none;
+}
+.gnb_hidden.active{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 75%;
+    height: 720px;
+    background: white;
+}
+.gnb_hidden.active li>a:hover{
+    color: #FF6B00;
+    fill: #FF6B00;
+    font-weight: bold;
+}
+.gnb_hiddenTop{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gnb_hiddenTop>li{
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.gnb_hiddenTop a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.gnbBtn_close{
+    margin-left: 20px;
+    width: 160px;
+}
+.gnbBtn_close>a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.game_menuAll{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    box-sizing: border-box;
+    height: 620px;
+
+}
+
+
+.game_menuAll>li>a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    height: 30px;
+}
+.game_menuAll ul{
+    font-size: 16px;
+}
+
+.game_menuAll ul>li{
+    padding: 5px 0;
+}
+.webgame{
+    height: 100%;
+}
+.webgame>ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.webgame>ul>li{
+    padding-right: 20px;
+}
+
+
+.banner{
+    width: 100%;
+   height: 730px; 
+}
+.banner_imgList{
+    width: 300%;
+    height: 100%;
+    display: flex;
+}
+.banner_imgList>li:first-of-type{
+    background: url(../img/banner_ex.jpg) no-repeat 0 0 / cover;
+}
+.banner_imgList>li{
+    flex: 1;
+}
