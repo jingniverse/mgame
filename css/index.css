@@ -1,13 +1,12 @@
 .wrap{
     background: #F8F9FB;
     font-family: Inter;
-
 }
+
 .Topgame{
     width: 1440px;
     height: 1083px;
     background: #F8F9FB;
-    border: 1px solid blue;
     box-sizing: border-box;   
     margin: 0 auto; 
     padding: 85px 40px;
@@ -41,7 +40,11 @@
     border-radius: 13px;
 }
 .best_game{
-    height: 387px;
+    height: 100%;
+}
+.best_game a{
+    display: inline-block;
+    height: 100%;
 }
 .best_game .best_badge{
     background: #00DBD3;
@@ -232,6 +235,7 @@
     display: flex;
     width: 1360px;
     justify-content: space-between;
+    border-bottom: 1px solid;
 }
 .allgame>div{
     display: flex;
@@ -269,7 +273,6 @@
 }
 .allgame input{
     width: 350px;
-    
     height: 40px;
     background: none;
     border: 0;
