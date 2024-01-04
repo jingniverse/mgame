@@ -1,7 +1,6 @@
-html{
+.notoSans{
     font-family: 'Noto Sans KR', sans-serif;
 }
-/* .wrap{margin: 0 auto;} */
 .innerFrame{
     width: 1440px;
     margin: 0 auto;
@@ -220,9 +219,9 @@ footer{
     padding-bottom: 50px;
 }
 .foot_notice{
-    padding: 25px 20px;
+    padding: 30px 20px;
     border-bottom: 1px solid #424242;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 18px;
 }
 .foot_notice b{
@@ -242,7 +241,7 @@ footer{
 }
 .nav_info{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .nav_info>li{
     margin-right: 15px;
@@ -262,7 +261,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    line-height: 1.7;
+    line-height: 2;
     font-weight: lighter;
 }
 .corp_info>span{
