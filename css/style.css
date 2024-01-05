@@ -1,4 +1,4 @@
-.notoSans{
+body{
     font-family: 'Noto Sans KR', sans-serif;
 }
 .innerFrame{
@@ -8,7 +8,6 @@
 .ptColor{
     color: #FF6B00;
 }
-
 header{
     height: 100px;
     padding: 10px 0;
@@ -133,7 +132,9 @@ header{
 .banner{
     width: 100%;
    height: 730px; 
+
    position: relative;
+
    overflow: hidden;
 }
 .banner_imgList{
@@ -148,7 +149,7 @@ header{
     background: url(../img/banner_ex.jpg) no-repeat 50% 50% / cover
 }.banner_imgList>li:nth-of-type(3){
     background: url(../img/banner_ex.jpg) no-repeat 50% 50% / cover
-}
+
 .banner_imgList>li{
     width: 100%;
     height: 100%;
