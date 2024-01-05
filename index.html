@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
 </head>
 <body>
     <div class="wrap">
-        <header class="innerFrame">
+        <header class="innerFrame notoSans">
             <section class="header_top">
                 <h1 class="logo"> 
                     <a href="#">
@@ -181,40 +183,37 @@
         <main>        
             <section class="banner">
                 <ul class="banner_imgList">
-                    <li>
-                        <a href="#">
-                            <!-- <img src="./img/banner_ex.jpg" alt="천외천 신규서버오픈 링크"> -->
-                        </a>
+                    <li class="on">
+                        <a href="#"></a>
                     </li>
                     <li>
-                        <a href="#">
-                            <!-- <img src="./img/banner_ex.jpg" alt="천외천 신규서버오픈 링크"> -->
-                        </a>
+                        <a href="#"></a>
                     </li>
                     <li>
-                        <a href="#">
-                            <!-- <img src="./img/banner_ex.jpg" alt="천외천 신규서버오픈 링크"> -->
-                        </a>
+                        <a href="#"></a>
                     </li>
                 </ul>
                 <ul class="banner_desList innerFrame">
-                    <li>
+                    <li class="on">
                         <a href="#">
                             <h4>천외천</h4>
                             <p>신규서버 OPEN!</p>
                         </a>
+                        <div class="banner_progress"></div>
                     </li>
                     <li>
                         <a href="#">
-                            <h4>천외천</h4>
-                            <p>신규서버 OPEN!</p>
+                            <h4>코믹무협 MMORPG </h4>
+                            <p>열혈강호 온라인</p>
                         </a>
+                        <div class="banner_progress"></div>
                     </li>
                     <li>
                         <a href="#">
-                            <h4>천외천</h4>
-                            <p>신규서버 OPEN!</p>
+                            <h4>언박싱</h4>
+                            <p>GRAND OPEN !</p>
                         </a>
+                        <div class="banner_progress"></div>
                     </li>
                 </ul>
             </section>
@@ -374,14 +373,14 @@
       </main>
         <footer>
             <section class="foot_notice innerFrame">
-                <p>[공지] 엠게임 서비스 통합약관 변경 안내 </p>
+                <a href="#"><b>[공지]</b> 엠게임 서비스 통합약관 변경 안내 </a>
             </section>
             <section class="foot_info innerFrame">
                 <div class="foot_infoLeft">
                     <ul class="nav_info">
                         <li><a href="#">인재채용</a></li>
                         <li><a href="#">광고문의</a></li>
-                        <li><a href="#">서비스 운영정책</a></li>
+                        <li class="ptColor"><a href="#">서비스 운영정책</a></li>
                         <li><a href="#">개인정보처리방침</a></li>
                         <li><a href="#">청소년보호정책  </a></li>
                         <li><a href="#">사이트맵</a></li> 
@@ -394,10 +393,11 @@
                         <span>서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워3차 7F</span>
                         <span>대표전화 : 1644-0900</span>
                         <span>이메일 문의하기</span>
+                        <br>
                         <span>팩스 : 02-6969-5242</span>
                         <span>사업자 등록번호 : 114-81-93597호</span>
                         <span>통신판매업신고번호 : 금천 제 18-2065호</span>
-                        <span>사업자 정보 확인</span>
+                        <span class="link_underline">사업자 정보 확인</span>
                     </address>
                     <p class="copy">ⓒ Mgame Corp. All rights reserved.</p>
                     <h1 class="foot_logo">
@@ -427,10 +427,10 @@
                     </h1>
                 </div>
                 <ul class="foot_mark">
-                    <li><a href="#"><img src="../img/한국소프트웨어저작권협회.png" alt="한국소프트웨어저작권협회 마크"></a></li>
-                    <li><a href="#"><img src="../img/한국소프트웨어저작권협회.png" alt="한국소프트웨어저작권협회 마크"></a></li>
-                    <li><a href="#"><img src="../img/한국소프트웨어저작권협회.png" alt="한국소프트웨어저작권협회 마크"></a></li>
-                    <li><a href="#"><img src="../img/한국소프트웨어저작권협회.png" alt="한국소프트웨어저작권협회 마크"></a></li>
+                    <li><a href="https://www.nipa.kr/" target="_blank"><img src="./img/한국소프트웨어진흥원.png" alt="한국소프트웨어진흥원 마크"></a></li>
+                    <li><a href="https://www.spc.or.kr/index2.asp" target="_blank"><img src="./img/한국소프트웨어저작권협회.png" alt="한국소프트웨어저작권협회 마크"></a></li>
+                    <li><a href="https://isms.kisa.or.kr/main/" target="_blank"><img src="./img/ISMSP.png" alt="한국인터넷진흥원 마크"></a></li>
+                    <li><a href="http://www.safenet.ne.kr/main.do" target="_blank"><img src="./img/인터넷내용등급서비스.png" alt="방송통신위원회 인터넷내용등급서비스 마크"></a></li>
                 </ul>
             </section>
         </footer>
