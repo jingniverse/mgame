@@ -386,9 +386,12 @@ input::-webkit-search-results-decoration{
 .v_b_title h3{
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 7px;
 }
-.v_b_title span:first-of-type{
-
+.v_b_title span{
+    color: #A7A7A7;
+    font-size: 16px;
+    font-weight: 400;
 }
 .v_b_title span:last-of-type{
     display: block;
