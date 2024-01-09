@@ -184,7 +184,6 @@
     height: 300px;
     border-radius: 15px;
     color: #FFF;
-    padding: 35px 0 0 35px;
     box-sizing: border-box;
     text-transform: uppercase;
     transition: 0.5s transform ease;
@@ -199,6 +198,9 @@
     transform: translate(-50%,31%);
 }
 .n_g a{
+    width: 100%;
+    height: 100%;
+    padding: 35px;
     display: inline-block;
 }
 .n_g.g1{background: linear-gradient(180deg, #795634 0%, #45311D 100%);

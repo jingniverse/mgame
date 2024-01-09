@@ -44,7 +44,7 @@ $(document).ready(function(){
 
     $(".category>span").click(function(){
         $(".category>span").removeClass('on')
-               
+        $(this).addClass("on")
     })
     
 
