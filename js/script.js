@@ -37,4 +37,17 @@ $(document).ready(function(){
         desLi.eq(idx).addClass("on")
         // clearInterval(stopSlide)
     })
+    $(".viewstyle>span").click(function(){
+        $(".viewstyle>span").removeClass('on')
+        $(this).addClass("on")
+    })
+
+    $(".category>span").click(function(){
+        $(".category>span").removeClass('on')
+        $(this).addClass("on")
+    })
+    
+
+
+
 })

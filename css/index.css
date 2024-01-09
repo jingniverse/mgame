@@ -184,7 +184,6 @@
     height: 300px;
     border-radius: 15px;
     color: #FFF;
-    padding: 35px 0 0 35px;
     box-sizing: border-box;
     text-transform: uppercase;
     transition: 0.5s transform ease;
@@ -199,6 +198,9 @@
     transform: translate(-50%,31%);
 }
 .n_g a{
+    width: 100%;
+    height: 100%;
+    padding: 35px;
     display: inline-block;
 }
 .n_g.g1{background: linear-gradient(180deg, #795634 0%, #45311D 100%);
@@ -273,6 +275,7 @@
     margin-left: 25px;
 }
 .viewstyle span{
+    cursor: pointer;
     display: flex;
     border: 1px solid black;
     width: 40px;
@@ -343,7 +346,7 @@ input::-webkit-search-results-decoration{
     border-radius: 50px;
     
 }
-.card_view ul{
+.card_view ul,.list_view>ul{
     display: flex;
     flex-flow: row wrap;
     width: 1360px;
@@ -353,10 +356,20 @@ input::-webkit-search-results-decoration{
     margin: 0 26.35px 0 0;
     flex: none;
     width: 320px;
+    position: relative;
     height: 320px;
     background: #FEFEFE;
 }
-.c_v_box:hover{
+.c_v_box::after{
+    content: "";
+    top:0 ;
+    left:0;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    transition: 0.5s all ease;
+}
+.c_v_box:hover::after{
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
 
 }
@@ -395,4 +408,43 @@ input::-webkit-search-results-decoration{
 .v_b_title span:last-of-type{
     display: block;
     text-align: right;
+}
+.l_v_box{
+}
+.list_view ul{
+    margin-bottom: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.l_v_box{
+    width: 320px;
+}
+.l_v_box ul{
+    margin-top: 10px;
+    border-top: 1px solid black;
+}
+.l_v_box li{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: semibold;
+    margin-top: 10px;
+}
+.l_v_box li a{
+    display: flex;
+    align-items: center;
+    transition: 0.3s color linear;
+}
+.l_v_box li:hover a{
+    color: #FF8A3A;
+}
+.l_v_box img{
+    background: #ff6a007a;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right:5px;
+    
 }
