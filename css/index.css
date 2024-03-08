@@ -142,7 +142,18 @@
     height:184px ;
     position: relative;
 }
+.event::after{
+    position: absolute;
+    content: "";
+    background: url(../img/Group\ 29.png) no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 30px;
+    top: 20px;
+}
 .event>a{
+
     display: inline-block;
     font-size: 0;
 }
@@ -151,7 +162,7 @@
     left:30px;
     font-size: 12px;
 }
-.event>a span:nth-of-type(3){
+.event>a .baro{
     width: 100px;
     height: 27px;
     background:black;
