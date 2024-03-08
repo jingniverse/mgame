@@ -47,7 +47,19 @@ $(document).ready(function(){
         $(this).addClass("on")
     })
     
+    $(".viewstyle>li").click(function() {
+        let etc_li = $(this).index();
 
+        $(".viewstyle>li").removeClass("on");
+        $(this).addClass("on");
 
-
+        $(".v_s_output>li").each(function(i) {
+            if (i === etc_li) {
+                $(this).addClass("on");
+            } else {
+                $(this).removeClass("on");
+            }
+        });
+    });
+  
 })
