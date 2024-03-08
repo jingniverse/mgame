@@ -153,7 +153,6 @@
     top: 20px;
 }
 .event>a{
-
     display: inline-block;
     font-size: 0;
 }
@@ -285,12 +284,18 @@
     height: 40px;
     margin-left: 25px;
 }
-.viewstyle span{
+.viewstyle li{
     cursor: pointer;
     display: flex;
     border: 1px solid black;
     width: 40px;
     height: 40px;
+}
+.v_s_output>li{
+    display: none;
+}
+.v_s_output>li.on{
+    display: block;
 }
 .card{
     background: url(../img/cardgray.png) no-repeat center ;
