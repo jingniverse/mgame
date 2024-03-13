@@ -147,12 +147,13 @@ header{
     display: flex;
 }
 .banner_imgList>li:nth-of-type(1){
-    background: url(../img/banner1_bg.jpg) no-repeat 50% 50% / cover
+    background: url(../img/banner1_bg.jpg) no-repeat 50% 50% / cover;
+    background-size: 100% 985px;
 }
 .banner_imgList>li:nth-of-type(2){
-    background: url(../img/banner2_bg.jpg) no-repeat 50% 50% / cover
+    background: url(../img/banner2_bg.jpg) no-repeat 50% 50% / cover;
 }.banner_imgList>li:nth-of-type(3){
-    background: url(../img/banner_ex.jpg) no-repeat 50% 50% / cover
+    background: url(../img/banner_ex.jpg) no-repeat 50% 50% / cover;
 }
 .banner_imgList>li{
     width: 100%;
@@ -651,6 +652,11 @@ input::-webkit-search-results-decoration{
     position: relative;
     height: 320px;
     background: #FEFEFE;
+    cursor: pointer;
+}
+.c_v_box a{
+    display: inline-block;
+    height: 320px;
 }
 .c_v_box::after{
     content: "";
@@ -686,6 +692,7 @@ input::-webkit-search-results-decoration{
     text-transform: uppercase;
     padding: 14px 27px 22px;
     height: 90px;
+    box-sizing: border-box;
 }
 .v_b_title h3{
     font-size: 20px;
@@ -767,8 +774,11 @@ footer{
     margin-bottom: 25px;
     font-size: 18px;
 }
+.foot_notice b:hover{
+    text-decoration: underline;
+}
 .foot_notice b{
-    margin-right: 15px;
+    margin-left: 15px;
 }
 .foot_info{
     display: flex;

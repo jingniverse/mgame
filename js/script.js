@@ -26,17 +26,17 @@ $(document).ready(function(){
 
         desLi.removeClass("on")
         desLi.eq(count).addClass("on")
-    }, 4200)
+    }, 7000)
 
-    trainLi.click(function(){
-        clearInterval(stopSlide)
-        let idx = $(this)
-        trainLi.removeClass("on")
-        trainLi.eq(this).addClass("on")
-        desLi.removeClass("on")
-        desLi.eq(idx).addClass("on")
-        // clearInterval(stopSlide)
-    })
+    // trainLi.mouseover(function(){
+    //     clearInterval(stopSlide)
+    //     let idx = $(this)
+    //     trainLi.removeClass("on")
+    //     trainLi.eq(this).addClass("on")
+    //     desLi.removeClass("on")
+    //     desLi.eq(idx).addClass("on")
+    //     // clearInterval(stopSlide)
+    // })
     $(".viewstyle>span").click(function(){
         $(".viewstyle>span").removeClass('on')
         $(this).addClass("on")
