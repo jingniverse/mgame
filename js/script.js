@@ -26,7 +26,7 @@ $(document).ready(function(){
 
         desLi.removeClass("on")
         desLi.eq(count).addClass("on")
-    }, 7000)
+    }, 4000)
 
     // trainLi.mouseover(function(){
     //     clearInterval(stopSlide)

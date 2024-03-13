@@ -152,8 +152,8 @@ header{
 }
 .banner_imgList>li:nth-of-type(2){
     background: url(../img/banner2_bg.jpg) no-repeat 50% 50% / cover;
-}.banner_imgList>li:nth-of-type(3){
-    background: url(../img/banner_ex.jpg) no-repeat 50% 50% / cover;
+    background-size: 100% 830px;
+
 }
 .banner_imgList>li{
     width: 100%;
