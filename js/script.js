@@ -18,15 +18,15 @@ $(document).ready(function(){
 
 
     
-    // let stopSlide = setInterval(function(){
-    //     count++
-    //     if(count>(trainLength - 1)){count=0}
-    //     trainLi.removeClass("on")
-    //     trainLi.eq(count).addClass("on")
+    let stopSlide = setInterval(function(){
+        count++
+        if(count>(trainLength - 1)){count=0}
+        trainLi.removeClass("on")
+        trainLi.eq(count).addClass("on")
 
-    //     desLi.removeClass("on")
-    //     desLi.eq(count).addClass("on")
-    // }, 7000)
+        desLi.removeClass("on")
+        desLi.eq(count).addClass("on")
+    }, 7000)
 
     // trainLi.mouseover(function(){
     //     clearInterval(stopSlide)
