@@ -484,4 +484,5 @@ input::-webkit-search-results-decoration{
     align-items: center;
     background: white;
     border: 1px solid black;
+    cursor: pointer;
 }
